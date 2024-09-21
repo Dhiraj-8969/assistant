@@ -63,3 +63,33 @@ h1 {
     box-shadow: 2px 2px 10px rgb(28, 197, 219), 2px 2px 10px rgb(212, 17, 154);
     letter-spacing: 2px;
 }
+
+@media only screen and (max-width:450px) {
+    #logo {
+        width: 80vw;
+        margin-top: 80px;
+    }
+    #btn {
+        width: 80%;
+        background: linear-gradient(to right, rgb(28, 197, 219), rgb(212, 17, 154));
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        font-size: 20px;
+        border-radius: 20px;
+        color: white;
+        box-shadow: 2px 2px 10px rgb(28, 197, 219), 2px 2px 10px rgb(212, 17, 154);
+        border: none;
+        transition: all 0.5s;
+        cursor: pointer;
+    }
+    .h1 {
+        text-align: center;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 10px;
+    }
+}
