@@ -44,7 +44,7 @@ function takeCommand(message){
 if(message.includes("hello") || message.includes("hey")){
     speak("hello sir or madam i am shifra ,how can i help you?")
 }
-else if(message.includes("who are you and what you do")){
+else if(message.includes("who are you") || message.includes("what you do")){
     speak(" Thanks for asking, I am a virtual assistant, created by Dhiraj Kumer and i am a normal virtual assistant, that help you to do basic things like opening youtube , google ,instagram,searching anything and playing song and etc ")
 }
 else if (message.includes("can you remember my name")){
@@ -80,7 +80,7 @@ else if (message.includes("date")){
 }
 else if (message.includes("play a song")){
     speak("playing a song...")
-    window.open("https://www.youtube.com/results?search_query=song+hindi","_blank")
+    window.open("https://youtu.be/VPUKCSzQ2YY?si=aZewZX3r3yzAHui0","_blank")
 }
 else if (message.includes("open my college website")){
     speak("opening your college website...")
@@ -92,7 +92,7 @@ else if (message.includes("open faculty data")){
 }
 else if (message.includes("play my favourite song")){
     speak("playing your favourite song...")
-    window.open("https://www.youtube.com/watch?v=60ItHLz5WEA","_blank")
+    window.open("https://youtu.be/nFgsBxw-zWQ?si=fGs__4KG3W2hMPfy","_blank")
 }
 else{
      let finalText="this is what i found on internet regarding" + message.replace("shipra","") || message.replace("shifra","")
