@@ -45,7 +45,7 @@ if(message.includes("hello") || message.includes("hey")){
     speak("hello sir or madam i am shifra ,how can i help you?")
 }
 else if(message.includes("who are you and what you do")){
-    speak(" Thanks for asking, I am a virtual assistant, created by Ahmad Raza and i am a normal virtual assistant, that help you to do basic things like opening youtube , google ,instagram,searching anything and playing song and etc ")
+    speak(" Thanks for asking, I am a virtual assistant, created by Dhiraj Kumer and i am a normal virtual assistant, that help you to do basic things like opening youtube , google ,instagram,searching anything and playing song and etc ")
 }
 else if (message.includes("can you remember my name")){
     speak("yeah, i will try but i have many members so i can try to remember your name")
